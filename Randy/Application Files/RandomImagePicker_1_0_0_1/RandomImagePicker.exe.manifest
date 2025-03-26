@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RandomImagePicker.exe" version="1.0.0.1" publicKeyToken="5a06d66c800940fc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RandomImagePicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RandomImagePicker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RandomImagePicker.exe" size="9680">
+      <assemblyIdentity name="RandomImagePicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v/jmlFbkfEZJwclGggSJ7JOd1gquYcRkcafAq4VftNI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RandomImagePicker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IMMORTALIZER\TTTT2" issuerKeyHash="5a454f1df77ad830d9870bbb38b3e980724ab291" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vp09Zrh/um5BHQLHKd2J5xx9YCHFTjtfE8l58cIf1HE=</DigestValue></Reference></SignedInfo><SignatureValue>EbHI+SNyDE6kjpCTYYEx7IA0rnCpQDa/BYhbaqk94hUkzdvN8N9CeOof2YuGkkrVRXL+TF2lSd4aFYc7d3MiU7PXpjmlQjOw1QsogWFrJ7CGoTsl4f0qaoArVELMH6CBQbckBigK2y5qGlJdcz54wGCMe+uhLZdj6UWl/uSVEno=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v6M0+muI9bhqteE1JsGa1f2cnK+cofM+q6UeHlIj+48DP5sGRSV5zZU7R1FFv9dC3ZuuXM82s/VaMXmEIibfid+6nX/gmAv4YmaU1pH+oj+ZYHpdhXn7zNfVNOhErtNcXCspzFpyBZzfRJw9Uqz6CtkYj1UWGZTLVJn+/DEftCk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="71d41fc2f179c9135f3b4ec521607d1ce789dd29c7021d416eba7fb8663d9dbe" Description="" Url=""><as:assemblyIdentity name="RandomImagePicker.exe" version="1.0.0.1" publicKeyToken="5a06d66c800940fc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IMMORTALIZER\TTTT2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dUQE7BimDE8GLsE83j9cs3i7TDy++EtcXJgkMUZWV5g=</DigestValue></Reference></SignedInfo><SignatureValue>R0VrcaIVAGrLHMvubOJ9zfOMYwEPmXTwt6NIiPNO5zQ9WERd29iBhkAb200GNN9NT6eASzcU+5RIV8h3YPw+aY8mMsz3mntUoO9bx0ZwAQadV5y/O2wKWbSw/torABw4llJ3up/pvpLoy7maEoNAaLmrZaj1g4056sc0ELTLt4o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v6M0+muI9bhqteE1JsGa1f2cnK+cofM+q6UeHlIj+48DP5sGRSV5zZU7R1FFv9dC3ZuuXM82s/VaMXmEIibfid+6nX/gmAv4YmaU1pH+oj+ZYHpdhXn7zNfVNOhErtNcXCspzFpyBZzfRJw9Uqz6CtkYj1UWGZTLVJn+/DEftCk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQFf/R1gDyro1Mm6u827OF3DANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQASQBNAE0ATwBSAFQAQQBMAEkAWgBFAFIAXABUAFQAVABUADIwHhcNMjUwMzI2MTQyODI2WhcNMjYwMzI2MjAyODI2WjAvMS0wKwYDVQQDHiQASQBNAE0ATwBSAFQAQQBMAEkAWgBFAFIAXABUAFQAVABUADIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL+jNPpriPW4arXhNSbBmtX9nJyvnKHzPqulHh5SI/uPAz+bBkUlec2VO0dRRb/XQt2brlzPNrP1WjF5hCIm34nfup1/4JgL+GJmlNaR/qI/mWB6XYV5+8zX1TToRK7TXFwrKcxacgWc30ScPVKs+grZGI9VFhmUy1SZ/vwxH7QpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAoYiHoC9IuXwdeFTEgcyBicCxmlrvXPFZs2XzCB5EJog6ZGofkirFLpoerOzppYv0U9kKwzipCl96fZQnoTVT689W83oJHHq0ljPMTIa1Hpq7Vg38OUHTPUhFtYprOKUf8PvpQnQxbi0JFfh3MoHWntzTGMKp5w83EDWVxa6qrqU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
